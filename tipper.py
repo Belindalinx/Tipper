@@ -1,3 +1,8 @@
+food_1 = input("What is your favorite food?")
+food_2 = input("Any thing else?")
+food_3 = (food_1 + food_2)
+input ("Did you try "+food_3+" today?")
+
 price=int(input("\nHow much is your "+food_3+" today?"))
 price_15=int(price)*15/100
 price_20=int(price)*20/100
